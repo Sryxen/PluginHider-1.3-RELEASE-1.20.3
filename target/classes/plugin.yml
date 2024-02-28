@@ -1,0 +1,13 @@
+name: PluginHider
+version: '1.2-RELEASE'
+main: sryxen.plugins.pluginhider.PluginHider
+api-version: '1.20'
+authors: [Sryxen]
+description: Plugin that helps in hiding the plugins installed on the server.
+
+commands:
+  pl:
+    description: Hide plugins command
+    usage: /pl
+    aliases: [pluginhide]
+    permission: pluginhider.view
